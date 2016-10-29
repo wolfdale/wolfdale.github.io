@@ -30,7 +30,9 @@ html, body {
 	left: 0;
 	right: 0;
 	bottom: 0;
-  transition: height 250ms ease-in;
+	transition: height 250ms ease-in;
+	color: #e8e8e8;
+	background-color: #282828;
 }
 
 h2 {
@@ -64,22 +66,6 @@ section {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
-}
-
-footer {
-	display: block;
-	margin: 0 0 1rem 0;
-	text-align: center;
-}
-
-abbr {
-	border-bottom: none;
-	text-decoration: none;
-	font-family: serif;
-}
-
-footer abbr[title="#aa9374"] {
-	color: #aa9374;
 }
 
 a {
@@ -129,26 +115,6 @@ li:first-child {
 .mail:hover { color: #999; }
 .linkedin:hover { color: #1683bb; }
 .stackoverflow:hover { color: #d38b28; }
-
-/* night theme */
-.frame.night {
-	color: #e8e8e8;
-	background-color: #282828;
-}
-
-.night-on {
-	display: none;
-}
-
-.night .night-on {
-	display: block;
-}
-
-.night .night-off {
-	display: none;
-}
-
-.night .github:hover { color: #fff; }
 
 /* small mobile devices */
 @media (max-device-width:400px) {
