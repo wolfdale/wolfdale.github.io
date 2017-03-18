@@ -5,3 +5,4 @@
 <p><a href="https://wolfdale.github.io/demos/snow/">Snowy Day</a></p>
 <p><a href="https://wolfdale.github.io/demos/HexTime/">Hex Time</a></p>
 <p><a href="https://wolfdale.github.io/demos/css-animation/">Simple CSS Animation</a></p>
+<p><a href="https://wolfdale.github.io/demos/Glitch/">Glitch</a></p>
