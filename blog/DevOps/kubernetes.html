@@ -19,6 +19,11 @@
       <p>Kubernetes embraces the principles of immutable infrastructure. Once a container is deployed the contents (i.e., the application) are not updated by logging into the container and making changes. 
          Instead a new version is deployed.
       </p>
+      <p>Everything in Kubernetes is declaratively configured. The developer or operator specifies the desired state of the system through deployment descriptors and configuration files, and Kubernetes is responsible for making this happen - you don’t need to provide imperative, step-by-step instructions. 
+        These principles of immutable infrastructure and declarative configuration have a number of benefits, first it is easier to prevent configuration drift, or “snowflake” application instances. Second, declarative deployment configuration can be stored within version control, alongside the code;
+
+        Kubernetes can be largely self-healing, as if the system experiences failure like an underlying compute node failure, the system can rebuild and rebalance the applications according to the state specified in the declarative configuration.
+    </p>
     </div>
    </div>
   </body>
