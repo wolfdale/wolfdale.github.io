@@ -4,7 +4,11 @@
 	line-height: 2rem;
 	font-weight: 300;
 }
-
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
 strong {
 	font-weight: 400;
 }
